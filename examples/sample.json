@@ -1,0 +1,7 @@
+{
+  "project": "strata-json",
+  "language": "Rust",
+  "features": ["borrowed strings", "lossless numbers", "Unicode \uD83E\uDD80"],
+  "large_integer": 18446744073709551616,
+  "ready_for_experiments": true
+}

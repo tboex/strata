@@ -1,0 +1,19 @@
+[package]
+name = "strata-json"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "A dependency-free JSON parser with borrowed strings and lossless numbers"
+license = "MIT"
+readme = "README.md"
+keywords = ["json", "parser", "zero-copy", "deserialization"]
+categories = ["parser-implementations", "encoding"]
+include = ["src/**", "tests/**", "benches/**", "examples/**", "*.md", "LICENSE", "Cargo.toml"]
+
+[[bench]]
+name = "parse"
+harness = false
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
